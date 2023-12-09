@@ -1,0 +1,179 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.sample
+{
+font-size: 22px;
+font-family: Papyrus, fantasy;
+font-weight:bold; 
+color:rgb(73, 25, 112);
+text-decoration:none;
+}
+.shop
+{
+    background-color: lavender;
+}
+.menu
+{
+float:left;
+}
+.menu ul li
+{
+display:inline;
+padding:25px;
+}
+.menu ul 
+{
+font-size: 22px;
+font-family: Papyrus, fantasy;
+font-weight:bold; 
+color:rgb(73, 25, 112);
+text-decoration:none;
+}
+.menu ul a:hover
+{
+color: purple;
+}
+.menu li a:hover,.dropdown:hover .dropbtn{
+background-color:lavender;
+}
+
+img {
+    border-radius: 50%;
+    
+  }
+
+  .img ul li
+{
+display:inline;
+padding:35px;
+}
+
+header {
+    font-family: "Lucida Handwriting", cursive;
+    background: url("images/lavenderbg.jpg");
+    background-size:cover; 
+    background-position:center;
+    background-repeat:no-repeat;
+    color: black;
+    text-align: center;
+    padding: 1em 0;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2em;
+}
+
+.flower-card {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1em;
+    overflow: hidden;
+    width: 300px;
+}
+
+.flower-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.flower-info {
+    padding: 1em;
+    text-align: center;
+}
+
+.contact{
+    font-size: 20px;
+    font-family: Papyrus, fantasy;
+    font-weight:bold; 
+    color:rgb(73, 25, 112);
+    text-decoration:none;
+}
+
+footer {
+    background: url("images/lavenderbg.jpg");
+    background-size:cover; 
+    background-position:center;
+    background-repeat:no-repeat;
+    color:black;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.slider-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .slider {
+    height: 450px;
+    display: flex;
+    transition: transform 0.1s;
+  }
+  
+  .slide {
+    height: 5px;
+    width: 25%;
+    height: auto;
+    padding: 60px;
+  }
+  
+  form {
+    background-color: lavender;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    text-align: left;
+    font-size: 20px;
+    font-family: Papyrus, fantasy;
+    font-weight:bold; 
+    color:rgb(73, 25, 112);
+    text-decoration:none;    
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select {
+    height: 36px; /* Adjust the height as needed */
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"] {
+    background-color: purple;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
